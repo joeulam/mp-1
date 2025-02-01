@@ -2,7 +2,9 @@
   margin:0;
   box-sizing: border-box;
 }
-
+.headerClass{
+  margin-top: 10vh;
+}
 .bodyWrapper{
   width: 80vw;
   margin: 0 auto;
@@ -45,7 +47,16 @@
 .mainWrapper ul{
   list-style-type: none;
 }
+.mainWrapper li{
+  margin-top: 2vh;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 2%;
+}
 
 .centralBody{
   display: flex;
+}
+.footer{
+  margin-top: 10vh;
 }
