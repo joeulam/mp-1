@@ -84,6 +84,7 @@
     padding-left: 0;
     display: flex;  
     justify-content: space-evenly;
+    justify-self: center;
   }
   .navbar a{
     width: 80%;
