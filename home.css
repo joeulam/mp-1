@@ -75,12 +75,13 @@
     width: 100%;
   }
   .navbar{
-    width: 90vw;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
   }
   .navbar ul{
     list-style-type:none;
+    flex-wrap: wrap;
     padding-left: 0;
     display: flex;  
     justify-content: space-evenly;
