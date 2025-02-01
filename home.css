@@ -75,8 +75,8 @@
     width: 100%;
   }
   .navbar{
-    width: 100vw;
-    margin: 0;
+    width: 90vw;
+    margin: 0 auto;
     text-align: center;
   }
   .navbar ul{
@@ -84,7 +84,6 @@
     padding-left: 0;
     display: flex;  
     justify-content: space-evenly;
-    justify-self: center;
   }
   .navbar a{
     width: 80%;
