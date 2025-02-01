@@ -12,7 +12,6 @@
 }
 .navbar{
   width: 25%;
-  background-color: gray;
   margin-right: 1vw;
 }
 
@@ -52,51 +51,57 @@
 
 .footer{
   margin-top: 10vh;
-  background-color: aliceblue;
 }
 
 @media screen and (max-width: 2000px){
   .navbar{
     width: 10vw;
-    background-color: gray;
   }
 }
 
 @media screen and (max-width: 1200px){
   .navbar{
     width: 15vw;
-    background-color: gray;
   }
 }
 
 
 @media screen and (max-width: 1000px){  
+  .headerClass{
+    text-align: center;
+  }
   .bodyWrapper{
     margin: 0;
-    width: 80%;
-    background-color: aliceblue;
+    width: 100%;
   }
   .navbar{
     width: 100%;
-    background-color: gray;
     margin: 0;
+    justify-content: center;
   }
   .navbar ul{
     list-style-type:none;
     padding-left: 0;
     display: flex;  
+    justify-content: space-evenly;
   }
   .navbar a{
-    
+    width: 80%;
   }
   .navbar li{
-    margin: 0;
-    justify-content: space-evenly;
-    text-align: center;
-
+    flex: 1; /* makes the buttons same sized src=w3school*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh auto;
+  }
+  #lastNav{
+    margin: 2vh auto;
   }
   .centralBody{
     display: block;
   }
-
+  .footer{
+    margin-left: 7%;
+  }
 }
