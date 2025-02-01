@@ -76,6 +76,8 @@
   }
   .navbar{
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .navbar ul{
     list-style-type:none;
