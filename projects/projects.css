@@ -86,3 +86,52 @@
   margin-top: 10vh;
   margin-bottom: 5vh;
 }
+
+@media screen and (max-width: 1000px){  
+  .headerClass{
+    text-align: center;
+  }
+  .bodyWrapper{
+    margin: 0;
+    width: 100%;
+  }
+  .navbar{
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar ul{
+    list-style-type:none;
+    padding-left: 0;
+    display: flex;  
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .navbar a{
+    width: 80%;
+    font-size: calc(2vw - 2px);
+  }
+  .navbar li{
+    flex: 1; /* makes the buttons same sized src=w3school*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh auto;
+  }
+  #lastNav{
+    margin: 2vh auto;
+  }
+  
+  .mainWrapper ul{
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .centralBody{
+    display: block;
+  }
+  .footer{
+    margin-left: 7%;
+  }
+}
