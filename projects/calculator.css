@@ -1,0 +1,20 @@
+.bodyWrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.headerClass{
+  margin-top: 10vh;
+}
+.mainWrapper{
+  width: 50%;
+  border-style: solid;
+ border-radius: 20px;
+ margin: 0 auto;
+ display: block;
+ text-align: center;
+}
+
+.buttonGroup{
+  margin-top: 5vh;
+}
