@@ -74,9 +74,10 @@
   }
   .bodyWrapper{
     margin: 0;
-    width: 99%;
+    width: 100%;
   }
   .navbar{
+    margin-left: 0;
     width: 100%;
     display: flex;
     justify-content: center;
