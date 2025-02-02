@@ -69,5 +69,6 @@
   display: flex;
 }
 .footer{
+  margin-bottom: 5vh;
   margin-top: 10vh;
 }
