@@ -41,15 +41,18 @@
 }
 
 .mainWrapper{
-
+  width: 100%;
 }
 
 .mainWrapper ul{
-
+  list-style: none;
 }
 
 .mainWrapper li{
-
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5%;
+  margin-top: 5vh;
 }
 
 .experienceBlock{
@@ -59,7 +62,9 @@
   padding: 2%;
   margin-top: 2vh;
 }
-
+#catagoryTitle{
+  margin-top: 5vh;
+}
 .centralBody{
   display: flex;
 }

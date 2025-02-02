@@ -41,7 +41,7 @@
 }
 
 .mainWrapper{
-  text-align: center;
+  
 }
 
 .mainWrapper ul{
@@ -54,6 +54,31 @@
   padding: 2%;
 }
 
+.multiButton{
+  display: flex;
+  justify-content: end;
+}
+
+#githubLink{
+  display: inline-block;
+  border-style: solid;
+  padding: 2%;
+  border-radius: 20px;
+  margin-top: 5%;
+  text-decoration: none;
+  color: black;
+}
+
+#websiteLink{
+  display: inline-block;
+  border-style: solid;
+  padding: 2%;
+  border-radius: 20px;
+  margin-top: 5%;
+  text-decoration: none;
+  color: black;
+  margin-right: 1vw;
+}
 .centralBody{
   display: flex;
 }
