@@ -82,6 +82,8 @@
     width: 100%;
     background-color: rgb(245, 245, 230);
     border-radius: 0;
+    font-size: 12px;
+
   }
   .navbar{
     margin-left: 0;
@@ -113,6 +115,8 @@
   .mainWrapper{
     margin-top: 0vh;
     width: 100%;
+    border-width: 2px;
+
   }
   .mainWrapper li{
     margin-top: 2vh;

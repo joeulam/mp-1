@@ -121,6 +121,9 @@
   .mainWrapper img{
     width: 50%;
   }
+  #description {
+    width: 100%;
+  }
   .footer{
     margin-top: calc(30vh - 15vw);
     margin-left: 7%;
