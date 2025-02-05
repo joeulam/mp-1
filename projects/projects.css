@@ -3,11 +3,16 @@
   box-sizing: border-box;
 }
 .headerClass{
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 .bodyWrapper{
+  border-style: solid;
+  border-radius: 20px;
+  padding: 2%;
+
   width: 80vw;
   margin: 0 auto;
+  background-color: rgb(245, 245, 230);
 }
 
 .navbar{
@@ -41,7 +46,8 @@
 }
 
 .mainWrapper{
-  
+  margin-top: 3vh;
+  width: 80%;
 }
 
 .mainWrapper ul{
@@ -86,6 +92,9 @@
   margin-top: 10vh;
   margin-bottom: 5vh;
 }
+#catagoryTitle{
+  margin-top: 5vh;
+}
 
 @media screen and (max-width: 1000px){  
   .headerClass{
@@ -94,6 +103,8 @@
   .bodyWrapper{
     margin: 0;
     width: 100%;
+    border-radius: 0;
+
   }
   .navbar{
     margin-left: 0;
@@ -122,7 +133,10 @@
   #lastNav{
     margin: 2vh auto;
   }
-  
+  .mainWrapper{
+    margin-top: 0vh;
+    width: 100%;
+  }
   .mainWrapper ul{
     width: 90%;
     margin: 0 auto;

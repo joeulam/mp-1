@@ -53,7 +53,10 @@ function division(){
 function powerFunction(){
   const firstVal = Number(document.getElementById("firstNumber").value);
   const secondVal = Number(document.getElementById("secondNumber").value);
-  const result = recursiveHelper(firstVal,secondVal)
+  let result = 1
+  for(let i =0; i < secondVal; i++){
+    result *= firstVal
+  }
   if(result < 0){
     document.getElementById("result").style.color = "red";
   }
@@ -63,14 +66,7 @@ function powerFunction(){
   document.getElementById("result").innerText = result;
 }
 
-function recursiveHelper(baseNumber, powerNumber){
-  if(powerNumber === 1){
-    return baseNumber
-  }
-  else{
-    return baseNumber * recursiveHelper(baseNumber, powerNumber-1)
-  }
-}
+
 
 function clearField(){
   document.getElementById("firstNumber").value = "";

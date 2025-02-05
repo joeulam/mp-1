@@ -3,15 +3,19 @@
   box-sizing: border-box;
 }
 .headerClass{
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 .bodyWrapper{
+  border-style: solid;
+  border-radius: 20px;
+  padding: 2%;
   width: 80vw;
   margin: 0 auto;
+  background-color: rgb(245, 245, 230);
 }
 
 .navbar{
-  width: 44%;
+  width: 25%;
   margin-right: 1vw;
 }
 
@@ -41,7 +45,7 @@
 }
 
 .mainWrapper{
-
+  width: 80%;
 }
 
 .mainWrapper ul{
@@ -74,7 +78,10 @@
   }
   .bodyWrapper{
     margin: 0;
+    border-radius: 0;
     width: 100%;
+    height: 100vh;
+
   }
   .navbar{
     margin-left: 0;
@@ -103,16 +110,21 @@
   #lastNav{
     margin: 2vh auto;
   }
-  
+  .mainWrapper{
+    margin-top: 0vh;
+    width: 100%;
+  }
   .mainWrapper ul{
     width: 90%;
     margin: 0 auto;
     padding-left: 0;
   }
+  
   .centralBody{
     display: block;
   }
   .footer{
+    margin-top: 5vh;
     margin-left: 7%;
   }
 }
