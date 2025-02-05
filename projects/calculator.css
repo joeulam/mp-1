@@ -1,7 +1,17 @@
 *{
-  margin:0;
+  margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #f8f8f2; /* Light background */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height */
+  margin: 0;
+}
+
 .headerClass{
   margin-top: 10vh;
 }
@@ -10,10 +20,14 @@
   width: 80%;
   margin: 0 auto;
 }
-
+#firstNumber, #secondNumber{
+  border-radius: 10px;
+  padding: 5%;
+  height: 3vh;
+}
 .mainWrapper{
   background-color: beige;
-  height: 50vh;
+  height: 70vh;
   width: 30vw;
   border-style: solid;
   border-radius: 20px;
@@ -22,7 +36,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .mainWrapper h6{
   margin-top: 5vh;
@@ -31,14 +44,25 @@
   margin-top: 5vh;
   display: flex;
   flex-wrap: wrap;
-  max-width: 70vw;
+  width: 20vw;
 }
 .buttonGroup button{
-  border-radius: 20px;
+  flex: 1;
+  border-radius: 10px;
   margin: 5%;
   padding: 5%;
+  background-color: rgb(254, 249, 235);
 }
-@media screen and (max-width: 1000px){  
+.mainWrapper h3{
+  margin-top: 5vh;
+}
+
+.footer{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5vh;
+}
+@media screen and (max-width: 900px){  
   .headerClass{
     text-align: center;
   }
@@ -48,6 +72,9 @@
     height: 100vh;
     background-color: rgb(245, 245, 230);
     border-radius: 0;
+  }
+  .buttonGroup{
+    width: 40vw;
   }
   .mainWrapper{
     margin-top: 0vh;
@@ -62,6 +89,5 @@
     margin-left: 5vw;
   }
   .footer{
-    margin-left: 7%;
   }
 }

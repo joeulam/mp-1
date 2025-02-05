@@ -52,11 +52,24 @@ function division(){
 
 function powerFunction(){
   const firstVal = Number(document.getElementById("firstNumber").value);
-  const secondVal = Number(document.getElementById("secondNumber").value);
+  let secondVal = Number(document.getElementById("secondNumber").value);
   let result = 1
-  for(let i =0; i < secondVal; i++){
-    result *= firstVal
+  
+  if (secondVal < 0) {
+    secondVal *= -1
+    let div = 1
+    for(let i = 0; i < secondVal; i++){
+      div *= firstVal
+    }
+    result = 1 / div
   }
+  else{
+    for(let i = 0; i < secondVal; i++){
+      result *= firstVal
+    }
+  }
+  
+  
   if(result < 0){
     document.getElementById("result").style.color = "red";
   }
