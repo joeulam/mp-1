@@ -10,7 +10,7 @@
     <div class="bodyWrapper">
       <header class="headerClass">
         <h1>Joey Lam</h1>
-        <p>Online resume</p>
+        <p>Joey's Projects</p>
       </header>
       <div class="centralBody">
         <nav class="navbar">
@@ -26,11 +26,7 @@
           </ul>
         </nav>
         <main class="mainWrapper">
-          <div class="subHeader">
-            <h2>Projects</h2>
-            <p>Joey's Projects</p>
-          </div>
-          
+          <h2>Projects</h2>
           <ul>
             <li>
               <h3>Lamb Inventory (in progress)</h3>
@@ -134,20 +130,29 @@
                 <a id="githubLink" target="_blank" href="https://github.com/joeulam/ssrtest">Check it out on Github</a>
               </div>
             </li>
-            <li>
-              <h3>JS Calculator App</h3>
-              <p>A calculator app for CS 391</p>
-              <p>Tech Stack: Javascript</p>
-              <div class="multiButton">
-                <a id="websiteLink" target="_blank" href="./calculator.html">Check out the app</a>
-              </div>
-            </li>
           </ul>
+          <div class="calculator">
+            <h2 id="catagoryTitle">Calculator</h2>
+            <h3 id="result"></h3>
+            <h6>First input</h6>
+            <input type="number" id="firstNumber" />
+            <h6>Second input</h6>
+            <input type="number" id="secondNumber" />
+            <div class="buttonGroup">
+              <button onclick="addition()">+</button>
+              <button onclick="subtraction()">-</button>
+              <button onclick="multiplication()">*</button>
+              <button onclick="division()">/</button>
+              <button onclick="powerFunction()">**</button>
+              <button onclick="clearField()">Clear</button>
+            </div>
+          </div>
         </main>
       </div>
       <footer class="footer">
         <p>All Rights Reserved by Joey Lam <a href="_blank">Credit</a>&#169;</p>
       </footer>
     </div>
+    <script src="./calculator.js"></script>
   </body>
 </html>

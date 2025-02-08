@@ -104,6 +104,55 @@
   margin-top: 5vh;
 }
 
+
+#firstNumber, #secondNumber{
+  border-radius: 10px;
+  padding: 5%;
+  height: 3vh;
+}
+
+.calculator{
+  margin: 5vh auto;
+  background-color: beige;
+  height: 70vh;
+  width: 30vw;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calculator h6{
+  margin-top: 5vh;
+}
+.buttonGroup{
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 20vw;
+}
+.buttonGroup button{
+  flex: 1;
+  border-radius: 10px;
+  margin: 5%;
+  padding: 5%;
+  background-color: rgb(254, 249, 235);
+}
+.calculator h3{
+  margin-top: 5vh;
+  border-style: solid;
+  padding: 10% 20%;
+  border-radius: 10px;
+  width: 80%;
+  height: 15%;
+  overflow-wrap: break-word;
+  background-color: #f8f8f2;
+}
+#catagoryTitle{
+  margin-top: 2vh;
+}
+
 @media screen and (max-width: 750px){  
   .subHeader{
     font-size: 16px;
@@ -162,4 +211,25 @@
   }
   .footer{
   }
+  .buttonGroup{
+    width: 40vw;
+  }
+  .calculator{
+    width: 100%;
+    border-style: none;
+  }
+  .calculator h3{
+    margin-top: 5vh;
+    border-style: solid;
+    padding: 2% 5%;
+    border-radius: 10px;
+    width: 50%;
+    height: 15%;
+    overflow-wrap: break-word;
+    background-color: #f8f8f2;
+  }
+  .centralBody{
+    display: block;
+  }
+  
 }
